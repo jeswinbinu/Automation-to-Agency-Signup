@@ -1,0 +1,7 @@
+requests
+beautifulsoup4
+pandas
+Flask
+google-generativeai
+python-dotenv
+urllib3
