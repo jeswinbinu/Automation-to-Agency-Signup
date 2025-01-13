@@ -59,7 +59,7 @@ This Flask application determines the eligibility of a website as a digital serv
 ## Demo
 
 <figure class="video_container">
-  <iframe src="vid/Demo.mkv" frameborder="0" allowfullscreen="true"> 
+  <iframe src="Demo.mkv" frameborder="0" allowfullscreen="true"> 
 </iframe>
 </figure>
 
