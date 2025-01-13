@@ -56,6 +56,13 @@ This Flask application determines the eligibility of a website as a digital serv
 - **SMTP2Go**: Ensure you have valid credentials for SMTP2Go and they are set in your `.env` file.
 - **CSV Logging**: Decisions and reasoning are logged in the `agency_decisions.csv` file. Make sure this file is writable.
 
+## Demo
+
+<figure class="video_container">
+  <iframe src="vid/Demo.mkv" frameborder="0" allowfullscreen="true"> 
+</iframe>
+</figure>
+
 ## Contributing
 
 Contributions are welcome! Please fork the repository and submit a pull request with your changes.
