@@ -57,11 +57,7 @@ This Flask application determines the eligibility of a website as a digital serv
 - **CSV Logging**: Decisions and reasoning are logged in the `agency_decisions.csv` file. Make sure this file is writable.
 
 ## Demo
-
-<figure class="video_container">
-  <iframe src="https://github.com/jeswinbinu/Automation-to-Agency-Signup/blob/master/Demo.mkv" frameborder="0" allowfullscreen="true"> 
-</iframe>
-</figure>
+[Demo](https://github.com/jeswinbinu/Automation-to-Agency-Signup/blob/master/Demo.mkv)
 
 ## Contributing
 
