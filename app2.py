@@ -208,10 +208,28 @@ def index():
                 if 'send_email' in request.form and recipient_email:
                     if decision == "Eligible":
                         email_subject = "Welcome to Our Platform!"
-                        email_body = f"Congratulations! Your agency has been approved. {reasoning}"
+                        email_body = """Congratulations! We are thrilled to inform you that your agency has been approved for our platform.
+                            After a thorough review of your website, we've recognized the quality and range of digital services you offer, including website creation, branding, SEO, and digital marketing.
+
+                            We are excited to have you join our community of esteemed digital service providers. You now have access to exclusive resources and opportunities to expand your reach and connect with potential clients.
+
+                            Thank you for choosing to partner with us. We look forward to supporting your agency's growth and success.
+
+                            Best regards,
+                            Your Company Name"""
+
                     else:
                         email_subject = "Application Rejected"
-                        email_body = reasoning
+                        email_body = """Thank you for your interest in joining our platform.
+                            We have carefully reviewed your website, and unfortunately, it does not meet the current criteria for approval.
+                            Our analysis focused on the types of digital services offered and their alignment with our community standards.
+                            At this time, we cannot approve your application based on available information.
+                            We encourage you to review your services and consider reapplying in the future.
+                            Please feel free to reach out if you have any questions or need further clarification on our criteria.
+                            We appreciate your understanding and wish your agency continued success.
+
+                            Best regards,
+                            Your Company Name"""
 
                     # Send email to the provided recipient email
                     email_status = send_email(recipient_email, email_subject, email_body)
