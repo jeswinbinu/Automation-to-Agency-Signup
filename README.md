@@ -41,7 +41,7 @@ This Flask application determines the eligibility of a website as a digital serv
 
 1. **Run the Flask application**:
     ```bash
-    python app.py
+    python app2.py
     ```
 
 2. **Open your web browser** and go to `http://localhost:5000`.
